@@ -54,10 +54,7 @@ pm.test("Response time is less than 1000ms", function () {
 - Cả 3 test case đều Pass
 
 ### Hình minh hoạ
-<!-- THAY ẢNH THẬT -->
 ![GET request](images/get-posts.png)
-<!-- THAY ẢNH THẬT: tab Test Results hiện 3/3 Pass -->
-![GET tests pass](images/get-tests-pass.png)
 
 ---
 
@@ -102,10 +99,7 @@ pm.test("Title matches request body", function () {
 - Cả 3 test case đều Pass
 
 ### Hình minh hoạ
-<!-- THAY ẢNH THẬT -->
 ![POST request](images/post-request.png)
-<!-- THAY ẢNH THẬT -->
-![POST tests pass](images/post-tests-pass.png)
 
 ---
 
@@ -144,7 +138,6 @@ pm.test("Title was updated", function () {
 - Dữ liệu trả về khớp với nội dung đã gửi lên
 
 ### Hình minh hoạ
-<!-- THAY ẢNH THẬT -->
 ![PUT request](images/put-request.png)
 
 ---
@@ -169,7 +162,6 @@ pm.test("Status code is 200", function () {
 - Status: `200 OK`, server xác nhận đã xoá (response trả về object rỗng `{}`)
 
 ### Hình minh hoạ
-<!-- THAY ẢNH THẬT -->
 ![DELETE request](images/delete-request.png)
 
 ---
@@ -179,7 +171,6 @@ pm.test("Status code is 200", function () {
 Sau khi hoàn thành 4 request trên, toàn bộ được nhóm vào Collection `JSONPlaceholder API Testing` và chạy cùng lúc bằng **Collection Runner** để kiểm tra tự động. Kết quả: tất cả test case ở 4 request đều Pass.
 
 ### Hình minh hoạ
-<!-- THAY ẢNH THẬT: ảnh chụp Collection Runner với tổng số test Pass/Fail -->
 ![Collection Runner](images/collection-runner.png)
 
 ---
@@ -189,8 +180,6 @@ Sau khi hoàn thành 4 request trên, toàn bộ được nhóm vào Collection 
 File Collection đã được export và đính kèm trong repo này: [`postman_collection.json`](./postman_collection.json)
 
 Cách import: mở Postman → File → Import → chọn file `postman_collection.json`.
-
-<!-- LƯU Ý: bạn cần thật sự export Collection (nút ... cạnh tên Collection → Export) và đẩy file .json này lên cùng repo -->
 
 ## 10. Kết luận
 
