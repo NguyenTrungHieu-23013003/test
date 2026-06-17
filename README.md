@@ -177,8 +177,7 @@ Sau khi hoàn thành 4 request trên, toàn bộ được nhóm vào Collection 
 
 ## 9. Postman Collection
 
-File Collection đã được export và đính kèm trong repo này: [`postman_collection.json`](test/images
-/JSONPlaceholder API Testing.postman_collection.json)
+File Collection đã được export và đính kèm trong repo này: [`postman_collection.json`](images/JSONPlaceholder API Testing.postman_collection.json)
 
 Cách import: mở Postman → File → Import → chọn file `postman_collection.json`.
 
